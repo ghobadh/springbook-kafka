@@ -11,7 +11,7 @@ import org.springframework.stereotype.Service;
 @Service
 public class KafkaConsumer {
 
-    @KafkaListener(topics = "gfs-topic", groupId = "gForceGroup")
+    @KafkaListener(topics = "${spring.kafka.topic.name}", groupId = "gForceGroup")
     public void consume(String consumeMessage) {
         log.info("Message -->" + consumeMessage );
 
