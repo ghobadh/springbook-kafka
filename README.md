@@ -1,3 +1,16 @@
+### Codecov.io
+* Add JACOCO to the pom.xml as plugin
+* Add ci.yml under .github\workflows
+* Add orbs to config.yml under .circleci
+
+****
+
+Status in building the project in Cricle Ci :  [![CircleCI](https://dl.circleci.com/status-badge/img/gh/ghobadh/springboot-kafka/tree/master.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/ghobadh/springboot-kafka/tree/master)
+****
+Code Coverage Percentage :[![codecov](https://codecov.io/gh/ghobadh/springboot-kafka/graph/badge.svg?token=PRFWMSQQH5)](https://codecov.io/gh/ghobadh/springboot-kafka)
+
+
+
 # Kafka
 Apache Kafka is an open-source distributed event streaming platform used by many companies for high performance data pipeline
 , streaming analytics, data integration, and mission-critical applications.
